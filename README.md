@@ -1,19 +1,21 @@
 # Vehicle_Control_System
 Implement the following Vehicle Control system with the specifications listed below:
-## 1. Ask the user if he/she wants
-a. Turn on the vehicle engine
-b. Turn off the vehicle engine
-c. Quit the system
-## 2. If chose to “Quit the system”: Quit program
-## 3. If chose to “Turn off the vehicle engine”: Ask him/her again what he/she wants to do (Requirement 1)
-## 4. Once a choice has been chosen, print on screen the system state.
-## 5. If chose to “Turn on the vehicle engine”, display “Sensors set menu”, menuthat simulates the vehicle sensors readings.
+### 1. Ask the user if he/she wants
+a. Turn on the vehicle engine.
+
+b. Turn off the vehicle engine.
+
+c. Quit the system.
+### 2. If chose to “Quit the system”: Quit program
+### 3. If chose to “Turn off the vehicle engine”: Ask him/her again what he/she wants to do (Requirement 1)
+### 4. Once a choice has been chosen, print on screen the system state.
+### 5. If chose to “Turn on the vehicle engine”, display “Sensors set menu”, menuthat simulates the vehicle sensors readings.
 a. Turn off the engine
 b. Set the traffic light color.
 c. Set the room temperature (Temperature Sensor)
 d. Set the engine temperature (Engine Temperature Sensor)
-## 6. While the engine is ON, menu in requirement 5 must be always displayed and waits for an answer.
-## 7. Based on the answer of requirement 6.
+### 6. While the engine is ON, menu in requirement 5 must be always displayed and waits for an answer.
+### 7. Based on the answer of requirement 6.
 a. Based on traffic light data (Take it as input from console, we will assume that this is the sensor read value)
 i. If the traffic light is ‘G’ set vehicle speed to 100 km/hr
 ii. If the traffic light is ‘O’ set vehicle speed to 30 km/hr
@@ -35,7 +37,8 @@ ii. AC: ON/OFF.
 iii. Vehicle Speed.
 iv. Room Temperature.
 v. Engine Temperature Controller State.
-vi. Engine Temperature.8. If chose in menu of requirement 5 to “Turn off the engine”, the menu of requirement 1 must be displayed.
-## 9. Create #define WITH_ENGINE_TEMP_CONTROLLER
+vi. Engine Temperature.
+### 8. If chose in menu of requirement 5 to “Turn off the engine”, the menu of requirement 1 must be displayed.
+### 9. Create #define WITH_ENGINE_TEMP_CONTROLLER
 If this #define is 1 then compile/run the code lines that are related to the “Engine Temperature Controller 
 Else do not compile/run. (Code that implements 5-d, 7-c, 7-d-ii, 7-e-v and 7-e-vi)
